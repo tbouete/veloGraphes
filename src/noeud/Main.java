@@ -9,9 +9,7 @@ public class Main {
 		final String csvFile = "././docs/Toulouse.csv";
 		final String apikey  = "3259c8546589a48b226571195d3121e2fa24ce7b";
 		
-		for(int i = 1; i < 280; i++){
-			Noeud toast = Noeud.readNodeFromeCSV(csvFile, i);
-			System.out.println(toast);
-		}
+		Graphe myGraph = new Graphe(csvFile);
+		System.out.println(myGraph.toString());
 	}
 }
