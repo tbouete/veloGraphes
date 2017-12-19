@@ -13,6 +13,8 @@ public class Noeud {
 	private double latitude;
 	private double longitude;
 	
+	
+	
 	public Noeud(String number, String name, String address, String latitude, String longitude){
 		this.number = Integer.parseInt(number);
 		this.name = name;
