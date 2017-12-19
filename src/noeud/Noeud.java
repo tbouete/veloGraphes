@@ -49,6 +49,7 @@ public class Noeud {
         }catch (NullPointerException e) {
         	e.printStackTrace();
         	System.out.println("Le point " + nodeNumber + " n'est pas présent dans ce fichier.");
+        	return null;
 		}catch (FileNotFoundException e) {
             e.printStackTrace();
             System.out.println("Erreur : Fichier non valide");
